@@ -1,9 +1,1 @@
-just a test
-
-<<<<<<< HEAD
-another tesst
-=======
-another test
-
-simultaneous modifying 1
->>>>>>> 29d022c4551e9e33af23a6cb53d8c83116123350
+delete all
