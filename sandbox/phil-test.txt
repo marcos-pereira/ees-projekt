@@ -1,1 +1,1 @@
-delete all
+delete all -philchange
