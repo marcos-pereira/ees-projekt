@@ -15,4 +15,5 @@ You ALSO need to comment the following lines of the file:
 #endif
 
 bricxcc_src_33719.zip :
-In step 4, build bricxcc froum source and use this .zip files
+This file is used in step 4 of the nxtOSEK installation in Linux (http://lejos-osek.sourceforge.net/installation_linux.htm).
+In step 4, build bricxcc froum source and use this .zip files (http://sourceforge.net/projects/bricxcc/files/bricxcc_source/bricxcc%203.3.7.19/)
