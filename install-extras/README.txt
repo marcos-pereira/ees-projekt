@@ -13,3 +13,6 @@ You ALSO need to comment the following lines of the file:
 #ifndef NEXTTOOL_ROOT
 #NEXTTOOL_ROOT = /cygdrive/C/cygwin/nexttool
 #endif
+
+bricxcc_src_33719.zip :
+In step 4, build bricxcc froum source and use this .zip files
