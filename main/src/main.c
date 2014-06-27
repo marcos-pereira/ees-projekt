@@ -1,5 +1,12 @@
 #include "../h/main.h"
 
+//DEFINES TO CONTROL THE MOTORS 
+#define LEFTTURNFACTOR 1.79
+#define RIGHTTURNFACTOR 1.85
+#define POWERLEFT 80
+#define POWERRIGHT 81
+#define TURNINGSPEED 60
+
 /* nxtOSEK hook to be invoked from an ISR in category 2 */
 void user_1ms_isr_type2(void) {
 }
