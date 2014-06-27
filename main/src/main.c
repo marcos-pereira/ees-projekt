@@ -47,11 +47,6 @@ void go_straight() {
 	nxt_motor_set_speed(NXT_PORT_C, 100, 0);
 } 
 
-// Turn a certain amount of degrees
-void turn(int degree) {
-  
-}
-
 // Follow the black line to complete the path
 void follow_path() {
   
