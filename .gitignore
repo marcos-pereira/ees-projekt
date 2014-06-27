@@ -1,4 +1,6 @@
 *.orig
+.metadata
+RemoteSystemsTempFiles
 main/*
 !main/src/
 !main/src/*
