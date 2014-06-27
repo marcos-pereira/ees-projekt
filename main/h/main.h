@@ -9,6 +9,8 @@
 
 /* add user headers here: */
 
+void go(int speed);
+void stop(int time);
 void hello_world();
 void calibrate_light_sensor(); 
 void follow_path();  
