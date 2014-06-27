@@ -14,7 +14,9 @@ void stop(int time);
 void hello_world();
 void calibrate_light_sensor(); 
 void follow_path();  
-void turn(int degree);
+void turn_right(float rot)
+void turn_left(float rot);
+
 void go_straight();
 
 #endif /* MAIN_H_ */

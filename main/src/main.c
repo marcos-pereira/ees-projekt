@@ -56,3 +56,25 @@ void turn(int degree) {
 void follow_path() {
   
 }
+
+void turn_right(float rot){
+	nxt_motor_set_count(NXT_PORT_A,0);
+	nxt_motor_set_count(NXT_PORT_C,0);
+	while(nxt_motor_get_count(NXT_PORT_C)<=(int)(rot*RIGHTTURNFACTOR)){
+		nxt_motor_set_speed(NXT_PORT_A,-TURNINGSPEED,0);
+		nxt_motor_set_speed(NXT_PORT_C,TURNINGSPEED,0);
+	}
+	stop(1);
+}
+
+void turn_left(float rot){
+	nxt_motor_set_count(NXT_PORT_A,0);
+	nxt_motor_set_count(NXT_PORT_C,0);
+	while(nxt_motor_get_count(NXT_PORT_A)<=(int)(rot*LEFTTURNFACTOR)){
+		nxt_motor_set_speed(NXT_PORT_A,TURNINGSPEED,0);
+		nxt_motor_set_speed(NXT_PORT_C,-TURNINGSPEED,0);
+	}
+	stop(1);
+}
+
+
