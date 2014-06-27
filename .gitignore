@@ -1,3 +1,4 @@
 *.orig
 main/*
+!main/src/
 !main/src/*
