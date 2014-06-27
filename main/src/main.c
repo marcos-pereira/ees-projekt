@@ -44,8 +44,34 @@ void go(int speed){
 }
 
 // Defines values for black, white and gray according to 1st sensor readings
+// TODO(Marcos): test function, look up the start position of the robot, define the ports for each sensor, 
+// take the average for both sensors, display average on LCD
 void calibrate_light_sensor() {
+  //int average, white_average,white1,white2,white3, black_line, gray_line;
   
+	//black_line=ecrobot_get_light_sensor(NXT_PORT_S1);
+	
+  //// TODO(Marcos): decide how to debug/test and display values of calibration
+  ////putNumberOnLCD(line);
+  
+	//systick_wait_ms(100);
+
+	//turn_left(30);
+			//white=ecrobot_get_light_sensor(NXT_PORT_S1);
+	//turn_left(10);
+			//white1=ecrobot_get_light_sensor(NXT_PORT_S1);
+	//turn_left(10);
+			//white2=ecrobot_get_light_sensor(NXT_PORT_S1);
+	//turn_left(10);
+			//white3=ecrobot_get_light_sensor(NXT_PORT_S1);
+
+	//white_average=white+white1+white2+white3;
+	//white=white/4;
+	//putNumberOnLCD(white);
+	//systick_wait_ms(100);
+	//=white+line;
+	//light=all/2;
+	//turn_right_till_line(360);  
 }
 
 // Go straight
