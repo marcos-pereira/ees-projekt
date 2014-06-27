@@ -1,4 +1,3 @@
 *.orig
 main/*
 !main/test.txt
-!main/src
