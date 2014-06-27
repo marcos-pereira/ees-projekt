@@ -1,1 +1,4 @@
 *.orig
+main/*
+
+!main/src/main.c
