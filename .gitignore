@@ -2,4 +2,6 @@
 main/*
 !main/src/
 !main/src/*
+!main/h/
+!main/h/*
 main/src/.DS_STORE
