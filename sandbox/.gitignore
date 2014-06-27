@@ -1,0 +1,10 @@
+# Ignore everything
+ignore_all_except/*
+
+# But not these files...
+!ignore_all_except.gitignore
+!helloworld.c
+!helloworld.cpp
+!README.c
+
+# etc...
