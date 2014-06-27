@@ -22,3 +22,23 @@ TASK(OSEK_Main_Task) {
 		systick_wait_ms(500);
 	}
 }
+
+// Defines values for black, white and gray according to 1st sensor readings
+void calibrate_light_sensor() {
+  
+}
+
+// Go straight
+void go_straight() {
+  
+} 
+
+// Turn a certain amount of degrees
+void turn(int degree) {
+  
+}
+
+// Follow the black line to complete the path
+void follow_path() {
+  
+}

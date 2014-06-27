@@ -10,5 +10,9 @@
 /* add user headers here: */
 
 void hello_world();
+void calibrate_light_sensor(); 
+void follow_path();  
+void turn(int degree);
+void go_straight();
 
 #endif /* MAIN_H_ */
